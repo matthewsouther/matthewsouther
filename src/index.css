@@ -12,3 +12,11 @@ h2 {
   font-family: 'Acme';
   font-size: 24px;
 }
+
+a {
+  color: peru;
+}
+
+a:visited {
+  color: brown;
+}
