@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/">
     <title>Matthew Souther</title>
     <link
       href="https://fonts.googleapis.com/css?family=Acme"
@@ -13,69 +14,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./src/index.css" />
-    <script type="module" src="/src/customHeader.ts"></script>
+    <script type="module" src="./src/siteNav.ts"></script>
+    <script type="module" src="./src/index.ts"></script>
   </head>
   <body>
-    <h1>Matthew Souther</h1>
-    <p>...is a musician in Portland, Oregon.</p>
-    <p>
-      And he works on Salesforce stuff for
-      <a href="https://lisc.org">Local Initiatives Support Corporation (LISC)</a
-      >.
-    </p>
-    <h2>Music</h2>
-    <p>
-      Trumpet player and composer who dabbles in piano and vocals. Or is it the
-      other way around?
-    </p>
-    <p>Studied music composition at Bennington College.</p>
-    <p>Post-college, was a part of:</p>
-    <ul>
-      <li>
-        <a href="ilgato.com/">il gato</a>
-      </li>
-      <li>
-        <a href="pickpocketensemble.com/">the pickPocket ensemble</a>
-      </li>
-    </ul>
-    <p>Here are some songs he wrote and recorded circa 2009:</p>
-    <h3>The Clams</h3>
-    <audio controls>
-      <source src="/src/assets/the_clams.mp3" type="audio/mpeg" />
-    </audio>
-    <h3>The Woodcock's Flight</h3>
-    <audio controls>
-      <source src="/src/assets/the_woodcocks_flight.mp3" type="audio/mpeg" />
-    </audio>
-    <p>
-      Some of his open mic stuff from July 2023 is
-      <a href="https://www.youtube.com/@MatthewSouther">up on YouTube</a> as
-      well.
-    </p>
-    <h2>Job</h2>
-    Find Matthew's professional identity on any of these fine websites:
-    <ul>
-      <li>
-        <a href="https://www.linkedin.com/in/matthewsouther/">LinkedIn</a>
-      </li>
-      <li>
-        <a href="https://github.com/matthewsouther">GitHub</a>
-      </li>
-      <li>
-        <a
-          href="https://salesforce.stackexchange.com/users/53350/matthew-souther?tab=profile"
-          >Salesforce StackExchange</a
-        >
-      </li>
-      <li>
-        <a href="https://trailblazer.me/id/matthewsouther">Trailblazer.me</a>
-      </li>
-    </ul>
-    <h2>Other</h2>
-    <p>Speaks a bit of Danish.</p>
-    <p>
-      And he's Otto and Asa's papa. Married to
-      <a href="https://educatoremily.com">Emily</a>.
-    </p>
+    <div id="siteContainer">
+      <div id="leftMargin"></div>
+      <div id="outlet"></div>
+      <div id="rightMargin"></div>
+    </div>
   </body>
 </html>

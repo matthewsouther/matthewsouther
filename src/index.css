@@ -1,6 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Overpass';
   font-size: large;
+}
+
+#siteContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 1rem;
+}
+
+#outlet {
+  flex: 1 1 750px;
+}
+
+#leftMargin, #rightMargin {
+  flex: 0 4 5rem;
 }
 
 h1 {
@@ -11,6 +29,7 @@ h1 {
 h2 {
   font-family: 'Acme';
   font-size: 24px;
+  color: IndianRed;
 }
 
 a {
