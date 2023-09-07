@@ -23,11 +23,11 @@ export class Music extends LitElement {
       <p>Here are some songs he wrote and recorded circa 2009:</p>
       <h3>The Clams</h3>
       <audio controls>
-        <source src="/src/assets/the_clams.mp3" type="audio/mpeg" />
+        <source src="https://s3.us-west-1.amazonaws.com/www.matthewsouther.com/the_clams.mp3" type="audio/mpeg" />
       </audio>
       <h3>The Woodcock's Flight</h3>
       <audio controls>
-        <source src="/src/assets/the_woodcocks_flight.mp3" type="audio/mpeg" />
+        <source src="https://s3.us-west-1.amazonaws.com/www.matthewsouther.com/the_woodcocks_flight.mp3" type="audio/mpeg" />
       </audio>
       <p>
         Some of his open mic stuff from July 2023 is

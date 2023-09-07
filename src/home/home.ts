@@ -5,7 +5,7 @@ import { customElement } from 'lit/decorators.js'
 export class Home extends LitElement {
   render() {
     return html`
-      <img src="./src/assets/matthew.jpg" />
+      <img src="https://s3.us-west-1.amazonaws.com/www.matthewsouther.com/matthew.jpg" />
     `;
   }
 
