@@ -1,5 +1,16 @@
+import { LitElement, html } from 'lit'
+import { customElement } from 'lit/decorators.js'
 import { Route, Router } from '@vaadin/router';
-import './app';
+
+@customElement('lit-site')
+export class Site extends LitElement {
+  render() {
+    return html`
+      <site-nav></site-nav>
+      <slot></slot>
+    `;
+  }
+}
 
 const routes: Route[] = [
   {
