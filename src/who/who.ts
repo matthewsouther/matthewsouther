@@ -1,7 +1,7 @@
-import { LitElement, html } from 'lit'
-import { customElement } from 'lit/decorators.js'
+import { LitElement, html } from "lit";
+import { customElement } from "lit/decorators.js";
 
-@customElement('page-who')
+@customElement("page-who")
 export class Who extends LitElement {
   render() {
     return html`
@@ -9,12 +9,15 @@ export class Who extends LitElement {
       <p>
         Anyway, he works on Salesforce stuff for
         <a href="https://lisc.org">
-          Local Initiatives Support Corporation (LISC)
-        </a>.
+          Local Initiatives Support Corporation (LISC) </a
+        >.
       </p>
       <p>
         And he's Otto and Asa's papa. Married to
-        <a href="https://educatoremily.com">Emily</a>.
+        <a href="https://educatoremily.com">Emily</a>. Together, Matthew and
+        Emily co-host a house concert series,
+        <a href="https://stickyplum.com">Sticky Plum Concerts</a>, at their home
+        in the Cully neighborhood.
       </p>
     `;
   }

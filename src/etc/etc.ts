@@ -8,7 +8,8 @@ export class Etc extends LitElement {
       <h2>Etc.</h2>
       <p>Speaks a bit of Danish.</p>
       <p>
-        Built this site with <a href="https://lit.dev/">Lit</a>, hosted on
+        Built this site with <a href="https://lit.dev/">Lit</a>, TypeScript, and
+        <a href="https://vitejs.dev">Vite</a>. Hosted on
         <a href="https://www.netlify.com/">Netlify</a>. See
         <a href="https://github.com/matthewsouther/matthewsouther">repo</a>.
       </p>
@@ -16,6 +17,8 @@ export class Etc extends LitElement {
   }
 
   static styles = css`
-    h2 { color: indianred; }
-  `
+    h2 {
+      color: indianred;
+    }
+  `;
 }
