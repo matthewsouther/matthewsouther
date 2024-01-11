@@ -7,11 +7,19 @@ export class Music extends LitElement {
     return html`
       <h2>Music</h2>
       <p>
-        Trumpet player and composer who dabbles in piano and vocals. Or is it
-        the other way around?
+        Matthew Souther is a songwright, a piano hack, and an iconoclastic swirl
+        of contradictions. Exuberant and plaintive; bombastic and
+        self-deprecating; soaked through with jazz and other musical traditions
+        but compulsively irreverant -- his songs are paeans to complexity. Ever
+        fond of folk idioms, willing to chase fool's gold, offering false
+        pretenses, and indulging in anachronism, he offers his tunes with a wink
+        and a nod, then offers a glimpse at something resembling humanity.
       </p>
-      <p>Studied music composition at Bennington College.</p>
-      <p>Post-college, was a part of:</p>
+      <p>
+        Matthew is also a trumpet player and erstwhile composer, having studied
+        music composition at Bennington College.
+      </p>
+      <p>He has contributed to:</p>
       <ul>
         <li>
           <a href="https://ilgato.com/">il gato</a>
@@ -36,7 +44,7 @@ export class Music extends LitElement {
         />
       </audio>
       <p>
-        Some of his open mic stuff from July 2023 is
+        Some of his open mic from 2023 is
         <a href="https://www.youtube.com/@MatthewSouther">up on YouTube</a> as
         well.
       </p>
