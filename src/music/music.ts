@@ -7,13 +7,13 @@ export class Music extends LitElement {
     return html`
       <h2>Music</h2>
       <p>
-        Matthew Souther is a songwright, a piano hack, and an iconoclastic swirl
-        of contradictions. Exuberant and plaintive; bombastic and
-        self-deprecating; soaked through with jazz and other musical traditions
-        but compulsively irreverant -- his songs are paeans to complexity. Ever
-        fond of folk idioms, willing to chase fool's gold, offering false
-        pretenses, and indulging in anachronism, he offers his tunes with a wink
-        and a nod, then offers a glimpse at something resembling humanity.
+        Matthew Souther is a songwright, a piano hack, and a swirl of thematic
+        contradictions. Exuberant and plaintive; bombastic and self-deprecating;
+        paying homage to jazz traditions but compulsively irreverant -- his
+        songs are paeans to complexity. Ever fond of folk idioms, willing to
+        chase fool's gold, offering false pretenses, and indulging in
+        anachronism, he offers his tunes with a wink and a nod, then offers a
+        glimpse at something resembling humanity.
       </p>
       <p>
         Matthew is also a trumpet player and erstwhile composer, having studied
