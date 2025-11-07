@@ -17,13 +17,19 @@ export class Music extends LitElement {
           <h3>Check out my debut album, Piano Songs!</h3>
           <p>
             Released November 2025
-            <a href="https://matthewsouther.bandcamp.com/album/piano-songs"
+            <a
+              href="https://matthewsouther.bandcamp.com/album/piano-songs"
+              target="_blank"
               >on Bandcamp</a
             >.
           </p>
           <p>Or find me on social media:</p>
           <!-- Instagram icon -->
-          <a class="icon-link" href="https://www.instagram.com/matthewsouther/">
+          <a
+            class="icon-link"
+            href="https://www.instagram.com/matthewsouther/"
+            target="_blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               shape-rendering="geometricPrecision"
@@ -41,7 +47,11 @@ export class Music extends LitElement {
             </svg>
           </a>
           <!-- YouTube icon -->
-          <a class="icon-link" href="https://www.youtube.com/@MatthewSouther">
+          <a
+            class="icon-link"
+            href="https://www.youtube.com/@MatthewSouther"
+            target="_blank"
+          >
             <svg
               id="Layer_1"
               data-name="Layer 1"
@@ -71,6 +81,12 @@ export class Music extends LitElement {
               />
             </svg>
           </a>
+          <p>
+            Or
+            <a href="http://eepurl.com/jrt9I6" target="_blank"
+              >sign up for email updates!</a
+            >
+          </p>
           <p><a href="/pressPhotos">Press Photos</a></p>
         </div>
       </div>
