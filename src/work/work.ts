@@ -1,12 +1,21 @@
-import { LitElement, html, css } from 'lit'
-import { customElement } from 'lit/decorators.js'
+import { LitElement, html, css } from "lit";
+import { customElement } from "lit/decorators.js";
 
-@customElement('page-work')
+@customElement("page-work")
 export class Work extends LitElement {
   render() {
     return html`
       <h2>Work</h2>
-      Find Matthew's professional identity on any of these fine websites:
+      <p>
+        Matthew is a Salesforce developer at
+        <a href="https://lisc.org">
+          Local Initiatives Support Corporation (LISC) </a
+        >.
+      </p>
+      <p>
+        To find out more about his professional qualifications and the kind of
+        stuff he gets into for work, try these links:
+      </p>
       <ul>
         <li>
           <a href="https://www.linkedin.com/in/matthewsouther/">LinkedIn</a>
@@ -28,6 +37,8 @@ export class Work extends LitElement {
   }
 
   static styles = css`
-    h2 { color: indianred; }
-  `
+    h2 {
+      color: indianred;
+    }
+  `;
 }

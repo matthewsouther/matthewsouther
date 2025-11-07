@@ -5,9 +5,12 @@ import { customElement } from "lit/decorators.js";
 export class Who extends LitElement {
   render() {
     return html`
-      <p>...is a musician in Portland, Oregon. Or is he?</p>
       <p>
-        Anyway, he works on Salesforce stuff for
+        ...is a musician in Portland, Oregon.
+        <a href="/music">Check out his music!</a>
+      </p>
+      <p>
+        He works on Salesforce stuff for
         <a href="https://lisc.org">
           Local Initiatives Support Corporation (LISC) </a
         >.
