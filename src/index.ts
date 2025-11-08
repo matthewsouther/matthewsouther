@@ -1,8 +1,8 @@
-import { LitElement, html } from 'lit'
-import { customElement } from 'lit/decorators.js'
-import { Route, Router } from '@vaadin/router';
+import { LitElement, html } from "lit";
+import { customElement } from "lit/decorators.js";
+import { Route, Router } from "@vaadin/router";
 
-@customElement('lit-site')
+@customElement("lit-site")
 export class Site extends LitElement {
   render() {
     return html`
@@ -14,48 +14,55 @@ export class Site extends LitElement {
 
 const routes: Route[] = [
   {
-    path: '/',
-    component: 'lit-site',
+    path: "/",
+    component: "lit-site",
     children: [
       {
-        path: '/',
-        component: 'page-home',
+        path: "/",
+        component: "page-home",
         action: async () => {
-          await import('./home/home');
+          await import("./home/home");
         },
       },
       {
-        path: 'who',
-        component: 'page-who',
+        path: "who",
+        component: "page-who",
         action: async () => {
-          await import('./who/who');
+          await import("./who/who");
         },
       },
       {
-        path: 'music',
-        component: 'page-music',
+        path: "music",
+        component: "page-music",
         action: async () => {
-          await import('./music/music');
+          await import("./music/music");
         },
       },
       {
-        path: 'work',
-        component: 'page-work',
+        path: "pressPhotos",
+        component: "page-press-photos",
         action: async () => {
-          await import('./work/work');
+          await import("./pressPhotos/pressPhotos");
         },
       },
       {
-        path: 'etc',
-        component: 'page-etc',
+        path: "work",
+        component: "page-work",
         action: async () => {
-          await import('./etc/etc');
+          await import("./work/work");
+        },
+      },
+      {
+        path: "etc",
+        component: "page-etc",
+        action: async () => {
+          await import("./etc/etc");
         },
       },
     ],
   },
 ];
 
-const outlet = document.getElementById('outlet');
+const outlet = document.getElementById("outlet");
 export const router = new Router(outlet);
 router.setRoutes(routes);
